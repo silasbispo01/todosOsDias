@@ -1,0 +1,45 @@
+.nav {
+    background: rgba(128, 128, 128, 0.05);
+    margin: 0;
+    padding: 20px;
+}
+
+
+.Buttons {
+    
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+}
+.Buttons-nav {
+    margin-left: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #FFF;
+}
+.Buttons-nav:hover {
+    color: #551A8B;
+    transition: color 1s;
+    transform: scale(1.1);
+}
+
+
+.Buttons-nav_logo {
+
+    margin-right: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+/*seção do meu porfólio em grid */
+
+.portifolio {
+    display: block;
+    margin-top: 500px;
+    padding: 500px;
+
+
+
+    
+}

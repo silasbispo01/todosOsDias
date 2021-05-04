@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercícios aula 13</title>
+</head>
+<body>
+  
+
+  <script>
+    
+    
+    const nomeInput = prompt('Digite seu nome completo:');
+     
+     nome = (nomeInput.toLowerCase());
+    //deixar todos minusculos para que não ocorra erros conforme a digitação do usuário. 
+     nome = (nomeInput.replaceAll(" ","")); 
+    //tirar espaços para fazer a contagem correta
+    // todos utilizam (nome), ocorrendo exceções
+    
+
+    let quantidadeLetras = (nome.length);
+    let segundaLetra = (nome.charAt(1));
+    let firstIndice = (nome.indexOf("a"));
+    let lastIndice = (nome.lastIndexOf("a"));
+    let uTresLetras = (nome.slice(-3))
+    let palavrasNome = (nomeInput.split()); //exceção
+    let nomeMaiusculo = (nomeInput.toUpperCase()); //exceção
+    let nomeMinusculo = (nomeInput.toLowerCase()); //exceção
+
+
+  document.body.innerHTML += `Seu nome é: ${nomeInput}<br />`; //exceção
+  document.body.innerHTML += `Seu nome tem ${quantidadeLetras} letras <br />`;
+  document.body.innerHTML += `A segunda letra do seu nome é: ${segundaLetra} <br />`;
+  document.body.innerHTML += `Qual o primeiro índice da letra A no seu nome? ${firstIndice + 1} <br />`;
+  document.body.innerHTML += `Qual o último índice da letra A no seu nome? ${lastIndice + 1} <br />`;
+  document.body.innerHTML += `As últimas 3 letras do seu nome são: ${uTresLetras} <br />`;
+  document.body.innerHTML += `As palavras do seu nome são: ERRO <br />`;
+  document.body.innerHTML += `Seu nome com letras maiúsculas: ${nomeMaiusculo}<br />`;
+  document.body.innerHTML += `Seu nome com letras minúsculas: ${nomeMinusculo} <br />`;
+
+  </script>
+</body>
+</html>

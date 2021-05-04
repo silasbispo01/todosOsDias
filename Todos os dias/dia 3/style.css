@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #8871ee;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+div { 
+    background-color: #FF9500;
+}
+
+section {
+    text-align: center;
+    margin: 2rem;
+    background-color: #FF9500;
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 5rem;
+    padding: 20px 0;
+    background-color: #FF9500;
+}
+span {
+    background-color: #FF9500;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 3px 3px 1px black;
+    background-color: #FF9500;
+  }

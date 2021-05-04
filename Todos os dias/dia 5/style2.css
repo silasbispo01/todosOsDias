@@ -1,0 +1,19 @@
+.elementExample {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.elementExample-first {
+    background-color: turquoise;
+
+}
+
+.elementExample-last {
+
+    background-color: tomato;
+}

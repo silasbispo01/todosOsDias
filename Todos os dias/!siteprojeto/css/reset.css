@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    font-family: "Open sans", sans-serif;
+    font-size: 20px;
+    background-color: rgb(53, 52, 53);
+    
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width da scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #333333;        /* cor da area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #707070;    /* cor da scroll */
+    border: 3px solid #333333;
+  }
+

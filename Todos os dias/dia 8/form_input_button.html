@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input e Forms</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            cursor: pointer;
+            display: inline-block
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p>O meu fomulário</p>
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nom" placeholder="Seu nome" required>
+        </p>
+        <p>
+            <label for="numer">Numero: </label>
+            <input type="number" id="numer" min="10" max="60" step="2">
+        </p>
+        <p>          
+            <label for="colorp">Cor preferida:</label>
+             <input type="color" name="" id="colorp">
+        </p>
+        <p>
+            <label for="true">Aceita termos e contratos:</label>
+            <input type="checkbox" value="true" id="true" valuerequired>
+        </p>
+        <button type="submit">Enviar</button>
+    </form>
+
+    
+</body>
+</html>
