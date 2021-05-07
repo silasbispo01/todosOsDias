@@ -1,0 +1,166 @@
+:root {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.3fr 1.5fr 1fr 1fr 0.2fr;
+    grid-template-areas: 
+    "nav nav nav" 
+    "main main main" 
+    "portfolio portfolio portfolio" 
+    "contact contact contact" 
+    "footer footer footer";
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    grid-area: nav;
+    background: #FFF;
+    align-items: center;
+    margin: 15px;
+}
+nav img {
+    height: 50px;
+    filter: invert(25%);
+
+}
+nav a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+nav ul li {
+    display: inline-block;
+}
+
+.navB:hover {
+    color: #63a4ff
+
+    ;
+
+
+}
+
+
+main {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    
+}
+.mainC {
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    padding: 20px;
+    margin: 5em 0 5em 0;
+    
+    
+    
+}
+main h1 {
+    color: #1976d2;
+    
+}
+
+
+main img {
+    height: 300px;
+    padding: 20px;
+}
+.portfolio {
+    grid-area: portfolio;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    position: relative;
+    height: 500px;
+}
+.portfolio_title {
+    margin-bottom: 200px;
+    color:#63a4ff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.portfolio img {
+    height: 400px;
+    width: 450px;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.displayB {
+    margin: 220px 0 220px 0;
+
+}
+.left {
+    margin-left: 190px;
+}
+.portfolioC{
+    grid-area: portfolioC;
+    display: flex;
+    margin-left: 500px;
+
+}
+
+
+
+
+
+
+
+.contact {
+    grid-area: contact;
+    background: cadetblue;
+    height: 300px;
+}
+footer {
+    grid-area: footer;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background: rgb(255, 255, 255);
+    color: rgb(80, 80, 80);
+    
+}
+footer img {
+    margin: 20px;
+    height: 50px;
+    filter: invert(25%);
+}
+footer a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+}
+footer ul li {
+    display: inline-block;
+
+}
+
+#direitos_auto {
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
