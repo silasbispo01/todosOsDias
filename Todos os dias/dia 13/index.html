@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <div id="referencia">
+      <div>
+        <h2>IMC</h2>
+        <p>Menos do que 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Mais do que 40</p>
+      </div>
+      <div>
+        <h2>Resultado</h2>
+        <p>Abaixo do peso</p>
+        <p>Peso normal</p>
+        <p>Sobrepeso</p>
+        <p>Obesidade grau 1</p>
+        <p>Obesidade grau 2</p>
+        <p>Obesidade grau 3</p>
+      </div>
+    </div>
+
+    <div id="formulario">
+      <h1>Calcule seu IMC</h1>
+
+      <form action="" class="formulario">
+        <label for="input-1">Peso (kg):</label>
+        <input type="number" id="input-1" class="peso" autocomplete="off">
+  
+  
+        <label for="input-2">Altura (cm):</label>
+        <input type="number" id="input-2" class="altura" autocomplete="off" placeholder="0,00">
+
+        <p id="resposta"></p>
+        
+        <button type="button" onclick="calculaIMC()">Calcular</button>
+
+        <p class="obs" >* use virgulas , em altura *</p>
+      </form>
+    </div>
+
+
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
