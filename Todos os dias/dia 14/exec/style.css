@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(43, 82, 212);
+    
+}
+
+#container { 
+    background-color: #fff;
+    padding: 1.3rem;
+    width: 600px;
+    margin: 40px auto;
+    border-radius: 10px;
+    
+}
+
+h1, h2 {
+    margin-left: 10%;
+}
+
