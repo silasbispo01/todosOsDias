@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: chocolate;
+}
+
+.timer-container {
+    margin: 50px auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: cornsilk;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    margin: 20px;
+}
+.timer {
+    margin: 20px;
+    font-size: 100px;
+}
+.timer-buttons {
+    margin: 20px;
+}
+
+.timer-buttons button {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
