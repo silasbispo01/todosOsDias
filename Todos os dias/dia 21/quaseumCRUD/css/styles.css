@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: chocolate;
+}
+
+.container {
+    margin: 50px auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: cornsilk;
+    border-radius: 10px;
+    font-family: sans-serif;
+
+}
+h1 {
+    margin: 20px;
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+}
+
+.container-tasks {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+li  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 20px;
+}
+
+button {
+    margin-left: 20px;
+}
+
