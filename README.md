@@ -6,6 +6,8 @@
 - Javascript Básico
 - Javascript Lógica de progamação
 - HTML, CSS
+- Git Básico
+- Figma
 
 ## OBS: 
 1. Não segue necessariamente uma ordem "HTML -> CSS -> JS"
