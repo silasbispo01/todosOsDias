@@ -22,12 +22,12 @@ function criaCalculadora () {
                 conta = eval(conta);
 
                 if(!conta) {
-                    alert('Conta invalida!');
+                   return alert('Conta invalida!');
                 }  
                 this.display.value = String(conta.toFixed(5));
 
             } catch(e) {
-                alert('Conta invalida!')
+                return alert('Conta invalida!')
             }
         },
         cliqueBotoes() {
