@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPF VALIDADOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</head>
+<body>
+    <h1>Validador De CPF</h1>
+    <form action="">
+        <input type="text" class="input" id="cpf" autocomplete="off">
+        <button type="button" onclick="getCPF()">VALIDAR</button>
+    </form>
+    <p></p>
+    <script>
+        $("#cpf").keypress(function() {
+            $(this).mask('000.000.000-00');
+        });
+    </script>
+    <script src="./validadorDeCPF2.js"></script>
+</body>
+</html>

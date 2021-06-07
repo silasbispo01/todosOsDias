@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    background: #343434;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #e2bb3a;
+    padding: 25px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input, button {
+    font-size: 25px;
+    margin: 5px;
+}
+button {
+    padding: 5px;
+}
+p {
+    padding: 25px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+b {
+    color: #e2bb3a;
+}
