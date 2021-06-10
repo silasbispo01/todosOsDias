@@ -1,0 +1,34 @@
+function rand(){
+    let min = 1
+    let max = 5
+    return (Math.random() * (max - min) + min)  * 1000
+}
+function esperaAi (msg, tempo) {
+    return new Promise((resolve, reject) => {
+    if(typeof msg !== 'string') {
+        reject('BAD Value')
+        return
+    }
+
+        setTimeout(()=> {
+            resolve(msg);
+        }, tempo)
+    })
+}
+
+
+async function executa() {
+    try {
+        const fase1 = await esperaAi('olá', rand())
+        console.log(fase1)
+        const fase2 = await esperaAi('tudo bem?', rand())
+        console.log(fase2)
+        const fase3 = await esperaAi('meu nome é Silas', rand())
+        console.log(fase3)
+    }
+    catch (e) {
+        console.log(e)
+    }
+}
+
+executa()
