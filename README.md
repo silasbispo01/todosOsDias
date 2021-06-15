@@ -10,4 +10,6 @@
 - Figma
 
 ## OBS: 
-1. Não segue necessariamente uma ordem "HTML -> CSS -> JS"
+
+1.  Isso não resume tudo aquilo que sei, somente um resumo daquilo que achei legal de jogar no repositório.
+2.  Não segue necessariamente uma ordem "HTML -> CSS -> JS"
