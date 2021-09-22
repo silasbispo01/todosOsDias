@@ -43,7 +43,7 @@
     
     - container com terminal interativo (-it)
 
-        - `docker run -ut [imagem]`
+        - `docker run -it [imagem]`
     
     <br>
 - listar containers
